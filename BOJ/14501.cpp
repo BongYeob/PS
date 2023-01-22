@@ -36,9 +36,6 @@ int main() {
 	}
 
 	cout << max;
-	/*cout << endl;
-	for (int i = 1; i <= n; i++)
-		cout << dp[i] << " ";*/
 
 	return 0;
 }
