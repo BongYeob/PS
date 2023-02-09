@@ -40,7 +40,7 @@ void check(vector<int> test) {
 			if (cur_h != test[i + j])
 				return;
 			else
-				slide[i + j] = true;
+				slide[i + j] = true;	//경사로 설치
 		}
 		i += l;
 	}
@@ -67,6 +67,7 @@ void check(vector<int> test) {
 
 		cur_h--;
 		for (int j = 0; j < l; j++) {
+			//경사로가 이미 있으면 return
 			if (cur_h != test[i - j] || slide[i - j])
 				return;
 		}
