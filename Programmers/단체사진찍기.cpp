@@ -18,12 +18,12 @@ void check(vector<string>& data) {
 		int p1idx;
 		int p2idx;
 		
-		for (int i = 0; i < 8; i++) {
-			if (arr[i] == p1){
-                p1idx = i;
+		for (int j = 0; j < 8; j++) {
+			if (arr[j] == p1){
+                p1idx = j;
             }
-			if (arr[i] == p2){
-                p2idx = i;
+			if (arr[j] == p2){
+                p2idx = j;
             }
 		}
 
